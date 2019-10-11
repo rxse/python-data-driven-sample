@@ -1,0 +1,4 @@
+dict-recursive-update==1.0.1
+selenium==3.141.0
+unittest-xml-reporting==2.5.1
+parameterized==0.7.0

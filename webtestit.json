@@ -1,0 +1,10 @@
+{
+  "defaultTestName": "test_new",
+  "pageObjectFolder": "pageobjects",
+  "projectName": "python-data-driven-sample",
+  "rootPackage": "uitest",
+  "targetFramework": "unittest",
+  "targetLanguage": "python",
+  "testFolder": "tests",
+  "version": "1.7.0"
+}
