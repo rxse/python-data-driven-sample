@@ -50,7 +50,8 @@ def main():
             os.path.join("temp-reports/",
                          os.environ.get("TEST_REPORT_FILENAME")),
             "wb") as output:
-        result = xmlrunner.XMLTestRunner(output=output).run(testsuite)
+        result = xmlrunner.XMLTestRunner(output=output,
+                                         stream=sys.stdout).run(testsuite)
         result.shouldStop = False
         sys.exit(not result.wasSuccessful())
 
